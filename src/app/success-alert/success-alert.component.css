@@ -1,0 +1,8 @@
+.alert {
+  background-color: lightgreen;
+  border-color: darkgreen;
+  color: darkgreen;
+}
+.alert::before {
+  content: "\2713";
+}

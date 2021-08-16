@@ -1,0 +1,8 @@
+.alert {
+  background-color: lightyellow;
+  border-color: darkorange;
+  color: darkorange;
+}
+.alert::before {
+  content: "\26A0";
+}
